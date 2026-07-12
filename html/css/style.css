@@ -485,7 +485,12 @@ strong, b {
   background-attachment: fixed;
   background-position: center center;
   position: relative;
-  overflow: hidden; }
+  overflow: hidden; 
+  height: 50px !important;
+  min-height: 50px !important;
+  display: flex !important;
+  align-items: center !important;
+}
 
 .parallax-overlay:after {
   content: "";
@@ -1477,8 +1482,10 @@ Smart forms custom style
 Footer style
 */
 .footer {
-  padding-top: 80px;
-  padding-bottom: 60px; }
+  padding-top: 15px;
+  padding-bottom: 15px; 
+  border-top: 5px solid #F97500; 
+  background-color: #181559;}
 
 .footer-nav > li {
   padding: 0px .5em; }
@@ -1486,7 +1493,67 @@ Footer style
     color: #666; }
     .footer-nav > li a:hover {
       color: #4683df; }
+.footer .text-md-right, .footer .d-flex{
+  gap: 25px !important;}
 
+.footer .copyright{
+  margin-left: 40px !important;
+  line-height: 1.4 !important;
+  color: #ffffff !important;
+  white-space: nowrap !important;
+  margin: 0 !important;
+}      
+@media (min-width: 768px) {
+  .footer .row {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important; 
+    flex-direction: row !important; }
+  .footer .row .col-12{
+    width: auto !important;
+    max-width: none !important;
+    display: flex !important;
+    flex: none !important;
+    margin-bottom: 0 !important;
+  }
+ }
+
+ .footer .texto-adicional-instram{
+  color: #ffffff;
+  font-size: 0.9rem;
+  margin-left: 12px;
+ }
+ .footer .socials{
+  display: inline-flex;
+  margin: 0 !important;
+}
+
+.footer .social-icon.si-instagram{
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.6) !important;
+  background: transparent !important;
+  transition: all 0.3s ease-in-out !important;}
+.footer .social-icon.si-instagram i{
+  color: #ffffff !important;}
+
+.footer .social-icon.si-instagram:hover{
+  color: #ffffff !important;
+  border-color: transparent !important;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%) !important;
+  transform: translateY(-2px);}
+
+  .footer .social-icon.si-instagram:hover i{
+    color: #ffffff !important;}
+
+
+
+ .footer-nav > li{
+  padding: 0px .5em;}
+  .footer-nav > li a{
+    color: #666;}
+    .footer-nav > li a:hover{
+      color: #4683df;}
+ 
 @media (max-width: 767px) {
   .footer .socials {
     display: inline-block; }
