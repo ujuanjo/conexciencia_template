@@ -48,7 +48,7 @@ a, .simple-hover img, button, .btn {
   -webkit-transition: all 0.3s; }
 
 a {
-  color: #4683df;
+  color: #F97500;
   text-decoration: none; }
   a:hover, a:focus {
     text-decoration: none;
@@ -114,11 +114,11 @@ ul, ol {
   background: #F9F9F9; }
 
 .badge-primary {
-  background: #4683df !important; }
+  background: #181559 !important; }
 
 .bg-primary {
-  background: #4683df !important;
-  border-color: #4683df; }
+  background: #181559 !important;
+  border-color: #181559; }
 
 .bg-success {
   background: #5cb85c !important;
@@ -137,14 +137,14 @@ ul, ol {
   border-color: #c9302c; }
 
 .bg-dark {
-  border-color: #333;
-  background-color: #333 !important; }
+  border-color: #181559;
+  background-color: #181559 !important; }
 
 .bg-white {
   background: #fff; }
 
 .text-primary {
-  color: #4683df !important; }
+  color: #181559 !important; }
 
 .text-danger {
   color: #c9302c !important; }
@@ -156,7 +156,7 @@ ul, ol {
   color: #f0ad4e !important; }
 
 .text-info {
-  color: #5bc0de !important; }
+  color: #F97500 !important; }
 
 .text-white {
   color: white !important; }
@@ -422,7 +422,7 @@ strong, b {
       position: absolute;
       top: 0;
       left: 50%;
-      background-color: #4683df;
+      background-color: #F97500;
       margin-left: -20px; }
   .section-title.title-left h3:before {
     left: 0;
@@ -464,7 +464,7 @@ strong, b {
   z-index: 1; }
 
 .angle-top.bg-dark:before {
-  background-color: #333; }
+  background-color: #181559; }
 
 .angle-top.bg-primary:before {
   background-color: #4683df; }
@@ -693,28 +693,28 @@ Buttons
       background-color: #4683df; }
 
 .btn-outline-info {
-  border: 2px solid #5bc0de;
+  border: 2px solid #F97500;
   background-color: transparent;
-  color: #5bc0de; }
+  color: #F97500; }
   .btn-outline-info:hover, .btn-outline-info:focus, .btn-outline-info:active {
     color: #fff;
-    border-color: #5bc0de;
+    border-color: #F97500;
     background-color: transparent; }
     .btn-outline-info:hover:before, .btn-outline-info:focus:before, .btn-outline-info:active:before {
       width: 100%;
-      background-color: #5bc0de; }
+      background-color: #F97500; }
 
 .btn-outline-info {
-  border: 2px solid #5bc0de;
+  border: 2px solid #F97500;
   background-color: transparent;
-  color: #5bc0de; }
+  color: #F97500; }
   .btn-outline-info:hover, .btn-outline-info:focus, .btn-outline-info:active {
     color: #fff;
-    border-color: #5bc0de;
+    border-color: #F97500;
     background-color: transparent; }
     .btn-outline-info:hover:before, .btn-outline-info:focus:before, .btn-outline-info:active:before {
       width: 100%;
-      background-color: #5bc0de; }
+      background-color: #F97500; }
 
 .btn-outline-success {
   border: 2px solid #5cb85c;
@@ -1071,7 +1071,7 @@ si-border {
   letter-spacing: 0; }
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .open > .nav-link {
-  color: #4683df; }
+  color: #F97500; }
 
 .sticky-wrapper.is-sticky .navbar.sticky-nav {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
@@ -1121,7 +1121,7 @@ si-border {
   .navbar-light.navbar.bg-white.navbar-transparent .navbar-nav .nav-link {
       color: #fff; }
   .navbar-light.navbar.bg-white.navbar-transparent .navbar-nav .nav-link.active, .navbar-light.navbar.bg-white.navbar-transparent .navbar-nav .nav-link:hover, .navbar-light.navbar.bg-white.navbar-transparent .navbar-nav .nav-link:focus {
-        color: #4683df; }
+        color: #F97500; }
   .navbar-light.navbar.bg-white.navbar-transparent .navbar-brand img {
       position: relative;
       max-height: 100px;
@@ -1146,7 +1146,7 @@ si-border {
   .navbar-light.navbar.bg-white.navbar-transparent.fixed-top .navbar-nav .nav-link {
         color: #111; }
   .navbar-light.navbar.bg-white.navbar-transparent.fixed-top .navbar-nav .nav-link.active, .navbar-light.navbar.bg-white.navbar-transparent.fixed-top .navbar-nav .nav-link:hover, .navbar-light.navbar.bg-white.navbar-transparent.fixed-top .navbar-nav .nav-link:focus {
-          color: #4683df; } }
+          color: #F97500; } }
 
 .navbar .navbar-nav .nav-link {
   color: #111; }
@@ -1157,7 +1157,13 @@ si-border {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
     -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08); }
     .navbar.navbar-light.navbar-transparent .navbar-brand .logo-light {
-      display: none; } }
+      display: none; } 
+      .navbar-brand img {
+        max-height: 48px;
+        width: auto;
+        height: auto;
+        display: block;
+      }}
 
 .dropdown-menu .dropdown-item {
   font-size: .88rem;
@@ -1263,6 +1269,29 @@ Portfolio
 .cbp-l-filters-text .cbp-filter-item {
   font-family: "Open Sans", sans-serif; }
 
+#js-grid-agency .cbp-caption-defaultWrap {
+  aspect-ratio: 380 / 250;
+  overflow: hidden; }
+
+#js-grid-agency .cbp-caption-defaultWrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block; }
+
+.mfp-bg {
+  z-index: 100000 !important;
+  opacity: 1 !important;
+  background: #111 !important; }
+
+.mfp-wrap {
+  z-index: 100001 !important; }
+
+/* Evita que el parallax del banner se vea detrás del lightbox */
+html.mfp-ready .dzsparallaxer,
+html.mfp-ready #home {
+  visibility: hidden; }
+
 /*
 Pricing tables
 */
@@ -1296,8 +1325,8 @@ Pricing tables
       text-transform: capitalize;
       font-family: "Open Sans", sans-serif; }
   .pricing-card.active {
-    border-top: 5px solid #4683df;
-    background-color: #4683df;
+    border-top: 5px solid #181559;
+    background-color: #181559;
     color: #fff;
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1); }
     .pricing-card.active .pricing-features {
@@ -1329,6 +1358,15 @@ Pricing tables
 
 .pricing-footer {
   padding: 20px; }
+
+#pricing .pricing-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%; }
+
+#pricing .pricing-features {
+  flex: 1; }
 
 /*
 Team style
@@ -1470,7 +1508,7 @@ Smart forms custom style
   padding-top: 0px; }
 
 .smart-forms .form-footer .button.btn-primary {
-  background-color: #4683df; }
+  background-color: #181559; }
 
 .smart-forms .form-footer .button {
   border-radius: 5px; }
