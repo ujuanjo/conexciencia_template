@@ -71,6 +71,19 @@ $(function () {
     $('.modal-video').magnificPopup({
         type: 'iframe'
     });
+    /**gallery image lightbox**/
+    $('#js-grid-agency').magnificPopup({
+        delegate: 'a.gallery-image',
+        type: 'image',
+        fixedContentPos: true,
+        overflowY: 'hidden',
+        gallery: {
+            enabled: true,
+            navigateByImgClick: true
+        },
+        mainClass: 'mfp-fade',
+        removalDelay: 300
+    });
     //knob circle progress bar
     $(".progress-circle").knob();
 });

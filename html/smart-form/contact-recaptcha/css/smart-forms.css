@@ -436,7 +436,7 @@ html, body{
 .smart-forms .gui-input:hover ~ .input-hint,
 .smart-forms .file .gui-file:hover + .gui-input,
 .smart-forms .gui-textarea:hover ~ .input-hint{
-	border-color: #6BC868;
+	border-color: #F97500;
 }
 
 /* @form element :focus state 
@@ -447,11 +447,11 @@ html, body{
 .smart-forms .select-multiple select:focus{ 
     color: #3c3c3c;
     background: #fff;
-	border:1px solid #4EBD4A;
-	-webkit-box-shadow:0px 0px 3px #4EBD4A inset; 
-	-moz-box-shadow:0px 0px 3px #4EBD4A inset;  
-	-o-box-shadow:0px 0px 3px #4EBD4A inset;	
-	box-shadow:0px 0px 3px #4EBD4A inset;
+	border:1px solid #F97500;
+	-webkit-box-shadow:0px 0px 3px #F97500 inset; 
+	-moz-box-shadow:0px 0px 3px #F97500 inset;  
+	-o-box-shadow:0px 0px 3px #F97500 inset;	
+	box-shadow:0px 0px 3px #F97500 inset;
     outline: none; 
 
 }
@@ -464,12 +464,12 @@ html, body{
 .smart-forms .gui-textarea:focus{  height: 120px; }
 .smart-forms .select > select:focus { z-index:10; z-index:20\9; }
 .smart-forms .gui-input:focus ~ .field-icon i,
-.smart-forms .gui-textarea:focus ~ .field-icon i{ color:#4EBD4A; }
+.smart-forms .gui-textarea:focus ~ .field-icon i{ color:#F97500; }
 .smart-forms .select-multiple select:focus, 
 .smart-forms .gui-input:focus ~ .input-hint,
 .smart-forms .gui-textarea:focus ~ .input-hint, 
-.smart-forms .file .gui-file:focus + .gui-input{ border-color: #4EBD4A; }
-.smart-forms .select > select:focus + .arrow{ color:#4EBD4A; }
+.smart-forms .file .gui-file:focus + .gui-input{ border-color: #F97500; }
+.smart-forms .select > select:focus + .arrow{ color:#F97500; }
 
 
 /* @radio + checkbox option elements 
