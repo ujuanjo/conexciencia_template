@@ -69,3 +69,13 @@ Migración y adaptación de una plantilla one-page comercial (Assan) hacia la id
 
 Contenido e imágenes de Conexciencia: derechos reservados © 2026 Conexciencia.  
 La plantilla base conserva las condiciones de licencia del producto original (WrapBootstrap / Assan).
+
+---
+
+## Despliegue de la página
+
+El contenido de este repositorio fue desplegado en la nube mediante la plataforma Netlify: ['https://www.netlify.com'](https://www.netlify.com).
+Para visualizar este repositorio deplegado tanto en versión de escritorio como un dispositivos móviles visitar el siguiente link: ['https://conexcienciadeploy.netlify.app'](https://conexcienciadeploy.netlify.app).
+
+
+=================================================================================================================================================
