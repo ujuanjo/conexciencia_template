@@ -681,16 +681,16 @@ Buttons
       background-color: #fff; }
 
 .btn-outline-primary {
-  border: 2px solid #4683df;
+  border: 2px solid #181559;
   background-color: transparent;
-  color: #4683df !important; }
+  color: #181559 !important; }
   .btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active {
     color: #fff !important;
-    border-color: #4683df;
+    border-color: #181559;
     background-color: transparent; }
     .btn-outline-primary:hover:before, .btn-outline-primary:focus:before, .btn-outline-primary:active:before {
       width: 100%;
-      background-color: #4683df; }
+      background-color: #181559; }
 
 .btn-outline-info {
   border: 2px solid #F97500;
@@ -1095,9 +1095,10 @@ si-border {
       display: inline-block;
       height: 100px;
       width: auto;
-      margin-left: 20rem;
-      margin-right: 0;
+      
+      margin-right: 10rem;
       padding: 0;}
+
   .navbar-brand img{
       height: 100%;
       max-height: 40px;
@@ -1454,7 +1455,7 @@ Call to action & parallax
   padding-left: 60px;
   position: relative;
   padding-bottom: 30px;
-  font-size: 1.2rem; }
+  font-size: 0.95rem; }
   .contact-info > li > i {
     position: absolute;
     left: 0;
