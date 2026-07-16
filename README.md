@@ -74,7 +74,7 @@ La plantilla base conserva las condiciones de licencia del producto original (Wr
 
 ## Despliegue de la página
 
-El contenido de este repositorio fue desplegado en la nube mediante la plataforma Netlify: ['https://www.netlify.com'](https://www.netlify.com).
-Para visualizar este repositorio deplegado tanto en versión de escritorio como un dispositivos móviles visitar el siguiente link: ['https://conexcienciadeploy.netlify.app'](https://conexcienciadeploy.netlify.app).
+- El contenido de este repositorio fue desplegado en la nube mediante la plataforma Netlify: ['https://www.netlify.com'](https://www.netlify.com).
+- Para visualizar el despliegue de este repositorio tanto en versión de escritorio como un dispositivos móviles visitar el siguiente link: ['https://conexcienciadeploy.netlify.app'](https://conexcienciadeploy.netlify.app).
 
 ---
